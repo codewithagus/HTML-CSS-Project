@@ -315,7 +315,7 @@ footer p{
     height: 15px;
 }
 
-@media (min-width: 305px) and (max21-width:705px){
+@media (min-width: 305px) and (max-width:705px){
     nav {
         background: url(img/menu.png);
         width: 40px;
@@ -381,14 +381,19 @@ footer p{
         margin-left: 155px;
     }
     body{
-        height: 100vh;
+        height: 100vh;  
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     #contenedor4{
         justify-content: center;
         align-items: center;
     }
     .textoicono1, .textoicono3{
-        margin-left: 245px
+        margin-left: 245px;
     }
 }    
 
