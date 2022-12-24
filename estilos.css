@@ -315,9 +315,17 @@ footer p{
     display: inline-block;
     height: 15px;
 }
+html{
+        
+    padding: 0;
+    margin-left: 0; 
+    margin-top: 0;
+    margin-right: 0;
+    margin: 0;
+}
 
-@media (min-width: 305px) and (max-width:705px){
-    nav {
+@media (min-width: 305px) and (max-width:1310px){
+    nav{
         background: url(img/menu.png);
         width: 40px;
         height: 40px;
@@ -354,48 +362,10 @@ footer p{
     }
     
     .contenedor4{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-    .mini_contenedor1{
-        flex-direction: row;
-        width: 100%;
-    }
-    .mini_contenedor2{
-        display:inline-block;
-        align-content: center;
-        justify-content: end;
-        align-items: baseline;
-        justify-items: center;
-        
-    }
-    #icono2, #icono4, #icono3, #icono1 {
-        margin-left: 20px;
-    }
-    #tarta, #trigo, #pan, #muffin{
-        margin-top: -180px;
-        margin-left: 200px;
-        margin-bottom: 2em;
-    }
-    .textoicono2, .textoicono4, .textoicono1, .textoicono3{
-        margin-left: 155px;
-    }
-    body{
-        height: 100vh;  
-        margin-top: 0;
-        margin-right: 0;
-        margin-left: 0;
         margin-left: auto;
         margin-right: auto;
     }
-    #contenedor4{
-        justify-content: center;
-        align-items: center;
-    }
-    .textoicono1, .textoicono3{
-        margin-left: 245px;
-    }
+   
 }    
 
 
